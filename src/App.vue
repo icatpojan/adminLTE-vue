@@ -9,7 +9,7 @@
             <div class="container-fluid">
                 <div class="row mb-2">
                     <div class="col-sm-6">
-                        <h1 class="m-0">{{ title }}</h1>
+                        <!-- <h1 class="m-0">{{ title }}</h1> -->
                     </div>
                     <div class="col-sm-6">
                         <ol class="breadcrumb float-sm-right">
@@ -20,10 +20,10 @@
             </div>
         </div>
         <div id="app">
-            <div id="nav">
+            <!-- <div id="nav">
                   <router-link to="/">Home</router-link> |
                 <router-link to="/about">About</router-link>
-            </div>
+            </div> -->
             <router-view />
         </div>
     </div>
@@ -36,7 +36,7 @@
 
     <!-- Main Footer -->
     <footer class="main-footer">
-        <strong>Copyright &copy; 2014-2020 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
+        <strong>Copyright &copy; 2021 <a href="https://kapalpintar.com/">Kapal Pintar</a>.</strong> All rights reserved.
         <div class="float-right d-none d-sm-inline-block">
             <b>Version</b> 3.1.0-rc
         </div>

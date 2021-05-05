@@ -10,11 +10,41 @@ const routes = [{
         component: Home
     },
     {
-        path: '/about',
-        name: 'About',
+        path: '/user',
+        name: 'user',
         component: () =>
-            import ( /* webpackChunkName: "about" */ '../views/About.vue')
-    }
+            import ('../views/User/User.vue')
+    },
+    {
+        path: '/gudang',
+        name: 'gudang',
+        component: () =>
+            import ('../views/Gudang/Gudang.vue')
+    },
+    {
+        path: '/barang',
+        name: 'Barang',
+        component: () =>
+            import ('../views/Produk/Barang.vue')
+    },
+    {
+        path: '/kategori',
+        name: 'Kategori',
+        component: () =>
+            import ('../views/Produk/Kategori.vue')
+    },
+    {
+        path: '/tipe',
+        name: 'Tipe',
+        component: () =>
+            import ('../views/Produk/Tipe.vue')
+    },
+    {
+        path: '/status',
+        name: 'Status',
+        component: () =>
+            import ('../views/Produk/Status.vue')
+    },
 ]
 
 const router = new VueRouter({
